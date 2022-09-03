@@ -1,155 +1,118 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
-  <title>Our Prints</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="style2.css">
-  <link rel="stylesheet" href="style-3.css">
+<!doctype html>
+<html lang="eng">
+  <head>
+      <!---flipster---->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+
+      <!-- jQuery -->
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+      <script src="dist/jquery.flipster.min.js"></script>
   
-  <style>
-  .whatsapp{ background:#F9FAFB;
-  color:#272E7F;
-  border-radius:10px;
-  margin:20px;
+      <script src="picturefill.js" async></script>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--------Font Awesome--------------->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.rtl.min.css" integrity="sha384-dc2NSrAXbAkjrdm9IYrX10fQq9SDG6Vjz7nQVKdKcJl3pC+k37e7qJR5MVSCS+wR" crossorigin="anonymous">
 
-  padding:100px ;
-  align-items: left; 
-    font-family:Cambria;
-    font-weight:bold;
-    font-size:10px;
-  } 
-  a{text-decoration: none;} 
-  
- .btn
-{
-   /* margin: 30px 30px;*/
-    width: 130px;
-    padding: 10px;
-    border-radius: 20px;
-    text-align:center;
-}
-
- .whatsapp-btn{
-   background:#3DB73B;
-   color:white;
-   font-weight:bold;
-  border:1px solid #3DB73B;
-  border-radius:10px;
-  padding:10px;
-  font-size:20px;
-  text-decoration:none;
- font-family: Serif;
- width:130px;
-align-items: center;
-text-align:center ;
- } 
- 
-  .call-btn{
-   background:#121642;
-   color:white;
-   font-weight:bold;
-  border:1px solid #121642;
-  border-radius:10px;
-  padding:10px;
-  font-size:20px;
-  text-decoration:none;
- font-family: Serif;
- width:130px;
-align-items: center;
-text-align:center ;
- }
- 
-  .Email-btn{
-   background:purple;
-   color:white;
-   font-weight:bold;
-  border:1px solid purple;
-  border-radius:10px;
-  padding:10px;
-  font-size:20px;
-  text-decoration:none;
- font-family: Serif;
- width:130px;
-align-items: center;
-text-align:center ;
- }
- 
-.contact-box{
-  background:#F9FAFB;
-  color:#272E7F;
-  border-radius:10px;
-  margin:10px;
-  padding-left:10px ;
-  padding-bottom:40px;
-  padding-top:40px;
-  align-items: left; 
-    font-family:Serif ;
-    font-weight:bold;
-    font-size:20pxpx;
-    float:left;
-  
-} 
-  .Instagram-btn{
-   background:#CD1C5A;
-   color:white;
-   font-weight:bold;
-  border:1px solid #CD1C5A;
-  border-radius:10px;
-  padding:10px;
-  font-size:20px;
-  text-decoration:none;
- font-family: Serif;
- width:130px;
-align-items: center;
-text-align:center ;
- }
- 
-
-
-a:hover{
-  Background-color:#3847E5;
-  color:#3847E5;
-  margin:10px;
-} 
-  </style>
+    <title>The Quintessential Jo - Check out Prints</title>
+    <link rel="stylesheet" href="style-3.css">
+    <link rel="stylesheet" href="responsive.css">
+    <!---Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Blaka+Hollow&family=Hahmlet:wght@100;200;300;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Blaka+Hollow&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Blaka+Hollow&family=Dancing+Script:wght@600&family=Hahmlet:wght@100;200;300;600&display=swap" rel="stylesheet">
+    <!-----gooogle Icon--------->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
+  <body>
+   
 
-<body>
- <header>
-    <div class ="logocover" > 
-    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#micon">
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  
-              </button>
-              <img class="logo" src="/images/logo.jpg">
 
-       <div class="collapse navbar-collapse" id="micon">
-         <ul class="nav navbar-nav navbar-right">
-  <li><a class="nav-box" href="index.html">Home</a></li>
-  <li><a class="nav-box" href="contact.html">Contact us</a> </li>
-  <li><a class="nav-box" href="Service.html" >Our services</a></li>
-  <li><a class="nav-box" href="ourprint.html">Checkout our prints</a></li>
-  
-</ul>
-</div></div>
+    <nav class="navbar fixed-top navbar-expand-md   navbar-light bg-light">
+        <a href="Index.html" class="navbar-brand mb-0 h2">
+            <img src="images/logo.jpg" alt=""
+            class="d-inline-block align-top"
+            width="40" height="40">
+        </a>
+        
+        <button
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="toggle navigation"
+        class="navbar-toggler">
+        <span class="material-symbols-outlined">
+          menu
+            </span>
+        </button>
+        <div class="collapse navbar-collapse" 
+        id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a href="index.html" class="nav-link active">
+                    Home
+                </a>
+            </li>
+                <li class="nav-item active">
+                    <a href="Contact.html" class="nav-link">
+                        Contact
+                    </a>
+                </li>
+                    <li class="nav-item active">
+                        <a href="Service.html" class="nav-link">
+                            Service
+                        </a>
+                    </li>
+                    <li class="nav-item active">
+                      <a href="Design.html" class="nav-link">
+                          Our Designs
+                      </a>
+              </li>      
+            <li class="nav-item active">
+                <a href="aboutus.html" class="nav-link">
+                    About Us
+                </a>
+            </li>
+            <li class="nav-item active">
+                <a href="ourprint.html" class="nav-link ">
+                    Our Prints
+                </a>
+            </li>
+        </ul>
 
- 
-<div class="headerpix"> Styling Fabrics Creatively 
-<br/>
-<small style="font-size: 20px; font-style: italic;">The Quentential JO</small>
+        </div>
+    </nav> 
 </div>
-</header>
 
-<hr>
 
+<section class="top-menu">
+    <div class="top-left">
+        <h1>
+            The Quintessential Jo
+        </h1>
+        <p>
+            Styling Fabrics creatively
+        </p>
+    </div>
+    <div class="top-right">
+        
+    </div>
+</section>
+
+<div class="discover">
+  <h1 style="border-bottom:1px solid #000; font-weight: bold;">
+      Our Prints
+  </h1>
+  <p>Check out the best of our Prints</p>
+</div>
 <!---
 <div id="head">
   <section>
@@ -247,7 +210,9 @@ a:hover{
 </section>
 
 </p> --->
-<iframe src="https://artsmith.online/store/the-quintessential-jo" width="90%" height="1000px"> 
+
+
+<iframe style="margin-top: 20px;" src="https://artsmith.online/store/the-quintessential-jo" width="90%" height="1000px"> 
 
   Check out our <a href="">Print</a>
 
@@ -255,9 +220,22 @@ a:hover{
 
 <br/>
 
-  <div class="footer-edge"> <prev><a href="Design.html"> Our Design</a> | <a href="Service.html">Services</a> | <a href="Contact.html">Contact</a> | <a href="ourprint.html">Our Print</a>| <a href="About US">About US</a> </prev></div>
+  <div class="footer-edge"> <prev><a href="Design.html"> Our Designs</a> | <a href="Service.html">Services</a> | <a href="Contact.html">Contact</a> | <a href="ourprint.html">Our Prints</a>| <a href="About US">About US</a> </prev></div>
 <footer>
+  <div class="follow-icon">
+   
+    <a class="fb" href="https://facebook.com/The-Quintessential-Jo-1791864697536023"><i class="fab fa-facebook-f"></i></a>
+    <a class="Inst" href="https://Instagram.com/the_quintessential_Jo"><i class="fab fa-instagram"></i></a>
+    <a class="twit" href="https://twitter.com/thequintessentialjo"><i class="fab fa-twitter"></i></a>
+    <a class="whats" href="https://chatwith.io/s/the-quintessential-jo"><i class="fab fa-whatsapp"></i></a>
+    
+        </div>
     <p>Quintessential Jo &copy; 2022</p>
 </footer>
 </body>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+  <script src="main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+ 
 </html>
