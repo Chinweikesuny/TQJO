@@ -45,9 +45,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-//Social Media Embedded code
+//Social Media Embedded
 (function(){
-  var i,e,d=document,s="script";i=d.createElement("script");i.async=1;i.charset="UTF-8";
-  i.src="https://cdn.curator.io/published/86f26b49-0658-4734-99f2-9d4d71baeba2.js";
-  e=d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
-  })();
+var i,e,d=document,s="script";i=d.createElement("script");i.async=1;i.charset="UTF-8";
+i.src="https://cdn.curator.io/published/9516a88d-64f0-471e-ad3c-a585a7805c09.js";
+e=d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
+})();
